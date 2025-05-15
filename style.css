@@ -1,0 +1,60 @@
+*{
+    background-color: #f9f9f9;
+    color: #222222;
+}
+
+header {
+    background-color: #0057ff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+    background-color: #0057ff;
+    color: white; /* Para que el texto sea legible sobre azul */
+    padding: 10px 20px;
+}
+
+article {
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+}
+
+nav {
+  font-family: 'Segoe UI';
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex; /*Divide equitativamente un texto*/
+  justify-content: space-around; /*Lo organiza al tamaño de la letra*/
+}
+
+img {
+    border: 10px solid blueviolet;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #62cfdd;
+    padding: 10px;
+}
+
+#descripcion {
+    font-family: 'Times New Roman';
+    padding: 20px 0px 0px 40px;
+}
+
+.parrafo {
+    padding: 0px 40px 20px 40px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}
